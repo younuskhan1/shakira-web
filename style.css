@@ -11,7 +11,7 @@ h1 {
     color: blue;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +44,33 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px green;
+
+
+}
+
+#full-stack-world {
+    border-left: 10px solid crimson;
+}
+
+#baby-world-class {
+    border-left: 10px solid yellow;
+}
+
+footer p {
+    text-align: center;
 }
